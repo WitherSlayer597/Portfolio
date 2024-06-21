@@ -1,0 +1,111 @@
+/*
+Karol Guerra
+Assignment 7
+CS210 p.3
+*/
+#include <iostream>
+#include <fstream>
+#include <map>
+#include <string>
+
+using namespace std;
+
+class ItemTracker {
+private:
+    map<string, int> itemFrequency;
+//Task 1 ****
+public:
+    ItemTracker() {
+        loadItemData();
+        saveFrequencyData();
+    }
+
+    void loadItemData() {
+        ifstream inputFile("CS210_Project_Three_Input_File.txt");
+        string item;
+
+        if (inputFile.is_open()) {
+            while (inputFile >> item) {
+                itemFrequency[item]++;
+            }
+            inputFile.close();
+        } else {
+            cout << "Unable to open the input file." << endl;
+        }
+    }
+//dat file ***
+    void saveFrequencyData() {
+        ofstream outputFile("frequency.dat");
+
+        if (outputFile.is_open()) {
+            for (const auto& pair : itemFrequency) {
+                outputFile << pair.first << " " << pair.second << endl;
+            }
+            outputFile.close();
+        } else {
+            cout << "Unable to open the output file." << endl;
+        }
+    }
+
+    int getItemFrequency(const string& item) {
+        if (itemFrequency.find(item) != itemFrequency.end()) {
+            return itemFrequency[item];
+        } else {
+            return 0;
+        }
+    }
+
+    void printItemFrequencies() {
+        for (const auto& pair : itemFrequency) {
+            cout << pair.first << " " << pair.second << endl;
+        }
+    }
+//histogram graph ****
+    void printHistogram() {
+        for (const auto& pair : itemFrequency) {
+            cout << pair.first << " ";
+            for (int i = 0; i < pair.second; ++i) {
+                cout << "*";
+            }
+            cout << endl;
+        }
+    }
+};
+
+
+int main() {
+    ItemTracker tracker;
+    int choice;
+    string item;
+
+    do {
+        cout << "Menu Options:" << endl;
+        cout << "1. Look up the frequency of a specific item" << endl;
+        cout << "2. Print the frequency of all items" << endl;
+        cout << "3. Print a histogram of item frequencies" << endl;
+        cout << "4. Exit" << endl;
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+        switch (choice) {
+            case 1:
+                cout << "Enter the item name: ";
+                cin >> item;
+                cout << "Frequency of " << item << ": " << tracker.getItemFrequency(item) << endl;
+                break;
+            case 2:
+                tracker.printItemFrequencies();
+                break;
+            case 3:
+                tracker.printHistogram();
+                break;
+            case 4:
+                cout << "Exiting program." << endl;
+                break;
+            default:
+                cout << "Invalid choice. Please try again." << endl;
+        }
+    } while (choice != 4);
+
+    return 0;
+}
