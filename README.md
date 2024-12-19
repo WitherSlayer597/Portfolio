@@ -71,7 +71,7 @@ UML Sequence Diagram
 
 UML Class Diagram
 [You were asked to create a class diagram based on the different classes and attributes needed for your system design. You are not required to include methods, but you may if you wish. Please insert your class diagram here. Check to make sure that you included appropriate components and symbols and that your design meets the client’s requirements.]
-![alt text](https://github.com/WitherSlayer597/portfolio/blob/[branch]/diagram.jpg?raw=true)
+https://github.com/WitherSlayer597/Portfolio/blob/main/diagram.jpg
 
 Technical Requirements
 [Based on the diagrams you have created, describe the technical requirements of your system. These requirements should address the required hardware, software, tools, and infrastructure necessary for your system design.]
