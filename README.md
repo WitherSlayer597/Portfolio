@@ -1,4 +1,24 @@
 Hello, I am adding my submitted project one: business requirements document and the project two: system design document to my README information for the course CS255.
+***********************************************************************************************************
+A summary of the DriverPass Project
+	The DriverPass project is a project that has the main goals of providing an online learning platform to improve driving test preparation and skills, create and host a functional system to support its users with a user friendly interface, offer flexible scheduling for students and instructors, provided feedback in a report or grade, while complying with DMV standards, laws, and regulations.
+The DriverPass project primarily aims to help and guide students who are learning to
+Operate a motor vehicle. The client has envisioned a complex system that would provide useful items to the students such as online courses, practice exams, on the road in person training, and flexible scheduling. These are some of the foundational features that are included in the DriverPass system. The client would like the system to include advanced features such as enabling customers to book, cancel, and change driving lesson appointments, either online or in person. As well as functionalities for monitoring reservations, user interactions, and generating reports for feedback.
+	The system's users include the business owner, administrative team, secretaries, and users. It is essential that the DriverPass system reflects a secure model with role-based permissions, and the ability to function on mobile and desktop platforms. The project would also like to offer the development of flexible training packages for various users, with similar lesson scheduling and progress tracking.
+Areas I would revise or improve
+An Assignment I would like to improve and work on would be module 5, Project 1. The reason I would like to revisit this is because of the feedback that was provided, I can use it to improve. For some background most of my experience and technical knowledge comes from researching and working in Information Technology for the Air Force. Most of my expertise is technological rather than business focused. It is important for people like me to understand the value of the Business side of projects as it is what keeps developers, employees, and users active throughout the project. 
+Some information I would want to change would be Elaborating on System background, Objectives and Goals, functional and non-functional requirements, which could improve clarity and demonstrate a deeper understanding of the DriverPass system as well as what is being required from a business, and user perspective. 
+Another area I think can use further explanation and information would be the security and user interface. I think that the DriverPass system would benefit from security features such as implementing MFA or federation logins, periodic system patching for vulnerabilities, live time security scans of the DriverPass system and servers, which can help the DriverPass system prevent any sort of breach or loss of important data.
+I would improve areas in the user interface by adding accessibility features which can include screen readers, voice commands such as searching or navigating, different colored viewing modes, tour of the site for new users, role based dashboards or home pages depending on the user. 
+
+Design Approach
+	I have been programming for a few years now and my first approach is always drawing everything out, usually this starts on a piece of paper but within the past year or so I have graduated over to using lucidchart more, even for my own personal projects. I believe that it is beneficial and important to be able to visualize where, and how data is moving and used in the model and within the relationship of each object and class or group.
+I think it is also important to develop use cases and develop diagrams to identify in a non technical term diagram, this can be shown and presented to people such as the business owner, project manager, stockholders, management etc. Being able to model the system in a chart is not only useful for executives but also for the development team to understand and shape or re-shape their software.
+Once the initial phases are completed I think it is important to offer and plan things such as long term service to ensure that a program like this can last for years to come. A lot of the time feedback is very very important for future development specifically when it comes from customers, clients, or users. Being able to host user surveys, interviews, user focus groups, can help understand issues that may be found from users while utilizing the program.
+	I believe that designing the model is important but also planning for the future of the software is just important, like most software in development and once completed it will go through changes, updates, patches, and different testing phases. The end goal of all of this is to support the software for as long as possible which can keep executives satisfied, as well as the users. 
+
+***********************************************************************************************************
+Project One:
 
 System Components and Design
 Purpose
@@ -57,6 +77,7 @@ Limitations include, number of users that the system can support at one time, nu
 
 
 ***********************************************************************************************************
+Project Two:
 UML Use Case Diagram
 [In Module Six, you were asked to complete a use case diagram based on your system design. If you would like to make any adjustments to your diagram, please do so. Please insert your use case diagram here. Check to make sure that you included appropriate components and symbols and that your design meets the client’s needs.]
 https://github.com/WitherSlayer597/Portfolio/blob/main/Screenshot%202024-12-18%20214217.jpg
