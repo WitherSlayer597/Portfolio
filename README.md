@@ -59,15 +59,15 @@ Limitations include, number of users that the system can support at one time, nu
 ***********************************************************************************************************
 UML Use Case Diagram
 [In Module Six, you were asked to complete a use case diagram based on your system design. If you would like to make any adjustments to your diagram, please do so. Please insert your use case diagram here. Check to make sure that you included appropriate components and symbols and that your design meets the client’s needs.]
-
+https://github.com/WitherSlayer597/Portfolio/blob/main/Screenshot%202024-12-18%20214217.jpg
 UML Activity Diagrams
 [You were asked to choose two use cases and create two activity diagrams, one for each use case. Please insert both of your activity diagrams here. Check to make sure that you included appropriate components and symbols and that your design meets the client’s needs.]
-
+https://github.com/WitherSlayer597/Portfolio/blob/main/Untitled.png
 
 
 UML Sequence Diagram
 [You were asked to create a sequence diagram based on one of the use cases you chose. Please insert your sequence diagram here. Check to make sure that you included appropriate components and symbols and that your design meets the client’s needs.]
-
+https://github.com/WitherSlayer597/Portfolio/blob/main/Untitled2.jpg
 
 UML Class Diagram
 [You were asked to create a class diagram based on the different classes and attributes needed for your system design. You are not required to include methods, but you may if you wish. Please insert your class diagram here. Check to make sure that you included appropriate components and symbols and that your design meets the client’s requirements.]
