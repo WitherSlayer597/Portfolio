@@ -18,7 +18,7 @@ Once the initial phases are completed I think it is important to offer and plan 
 	I believe that designing the model is important but also planning for the future of the software is just important, like most software in development and once completed it will go through changes, updates, patches, and different testing phases. The end goal of all of this is to support the software for as long as possible which can keep executives satisfied, as well as the users. 
 
 ***********************************************************************************************************
-Project One:
+Project One: https://github.com/WitherSlayer597/Portfolio/blob/main/Project%201.docx
 
 System Components and Design
 Purpose
@@ -77,7 +77,7 @@ Limitations include, number of users that the system can support at one time, nu
 
 
 ***********************************************************************************************************
-Project Two:
+Project Two: https://github.com/WitherSlayer597/Portfolio/blob/main/project%202.docx
 UML Use Case Diagram
 [In Module Six, you were asked to complete a use case diagram based on your system design. If you would like to make any adjustments to your diagram, please do so. Please insert your use case diagram here. Check to make sure that you included appropriate components and symbols and that your design meets the client’s needs.]
 https://github.com/WitherSlayer597/Portfolio/blob/main/Screenshot%202024-12-18%20214217.jpg
